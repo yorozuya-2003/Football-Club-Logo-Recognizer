@@ -62,7 +62,8 @@ def classify(test_image):
 # streamlit app
 def main():
     # streamlit user interface
-    st.set_page_config(page_title="Football Club Logo Image Classifier", page_icon=":soccer:")
+    st.set_page_config(page_title="Football Club Logo Image Classifier",
+                       page_icon=":soccer:")
 
     with open( "ui/style.css" ) as css:
         st.markdown( f'<style>{css.read()}</style>' , unsafe_allow_html= True)
@@ -75,7 +76,7 @@ def main():
         </style>
     """, unsafe_allow_html=True)
 
-    custom_title(st, "Football Club Logo Image Classifier")
+    custom_title(st, "Football Club Logo Recognizer")
 
 
     st.sidebar.header("**Instructions**")
@@ -89,7 +90,8 @@ def main():
     set_bg_image('ui/background.jpg', 'jpg')
 
     # image uploading and classification
-    uploaded_file = st.file_uploader("", type=["jpg", "jpeg", "png"])
+    uploaded_file = st.file_uploader(label="Upload the logo image of a football club...",
+                                     type=["jpg", "jpeg", "png"], label_visibility="hidden")
 
     c1, c2 = st.columns(2)
     if uploaded_file is not None:
