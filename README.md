@@ -1,1 +1,1 @@
-# Football-Club-Logo-Classifier
+# Football Club Logo Classifier
