@@ -4,6 +4,8 @@
 
 This repository contains the code and documentation for the "Football Club Logo Recognizer" project. The goal of this project is to recognize and classify images of football club logos from the top 5 football leagues using pattern recognition and machine learning techniques.
 
+![footballclubrecognizer](https://github.com/yorozuya-2003/Football-Club-Logo-Recognizer/assets/101598170/70de136d-9c6f-4d7e-802d-9423e2660f52)
+
 ## Important Links
 - [Web Application](https://football-club-logo-recognition.streamlit.app/)
 - [Dataset (Kaggle)](https://www.kaggle.com/datasets/alexteboul/top-5-football-leagues-club-logos)
