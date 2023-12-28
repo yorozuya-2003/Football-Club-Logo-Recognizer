@@ -5,7 +5,7 @@
 This repository contains the code and documentation for the "Football Club Logo Recognizer" project. The goal of this project is to recognize and classify images of football club logos from the top 5 football leagues using pattern recognition and machine learning techniques.
 
 ## Important Links
-- [Web Application]()
+- [Web Application](https://football-club-logo-recognition.streamlit.app/)
 - [Dataset (Kaggle)](https://www.kaggle.com/datasets/alexteboul/top-5-football-leagues-club-logos)
 
 
@@ -58,7 +58,7 @@ The dataset, comprising 100 club logos (20 from each of the 5 leagues), underwen
 
 ## Model Training and Classification Techniques
 
-1. **Artificial Neural Network (ANN)**
+1. **Artificial Neural Network (ANN)**  
    - Implemented using PyTorch
    - 4-layered Multi-Layer Perceptron
    - Optimizer: Adam, Loss: Cross Entropy Loss
@@ -68,28 +68,28 @@ The dataset, comprising 100 club logos (20 from each of the 5 leagues), underwen
    | Test Accuracy               | 94.74%     | 40.64%          |
 
 
-2. **Convolutional Neural Network (CNN)**
+2. **Convolutional Neural Network (CNN)**  
    Implemented using TensorFlow
 
    | Metric                      | RGB Images | Grayscale Data |
    |-----------------------------|------------|-----------------|
    | Test Accuracy               | 98.07%     | 87.7%           |
 
-3. **Random Forest Classifier**
+3. **Random Forest Classifier**  
    Grid-search for optimal hyperparameters: { max_depth=20, n_estimators=200 }
 
    | Metric                      | RGB Data | Grayscale Data |
    |-----------------------------|----------|-----------------|
    | Test Accuracy               | 80.57%   | 67.79%          |
 
-4. **KNearestNeighbors (KNN) Classifier**
+4. **KNearestNeighbors (KNN) Classifier**  
    Grid-search for optimal hyperparameters: { n_neighbors=3, weights="distance", p=1 }
 
    | Metric                      | RGB Images |
    |-----------------------------|------------|
    | Test Accuracy               | 72.25%     |
 
-5. **Support Vector Machine (SVM) Classifier**
+5. **Support Vector Machine (SVM) Classifier**  
    Grid-search for optimal hyperparameters: { kernel="rbf", gamma="auto", C=10 }
 
    | Metric                      | RGB Data | Grayscale Data |
