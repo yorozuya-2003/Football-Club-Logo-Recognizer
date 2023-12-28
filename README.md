@@ -56,7 +56,9 @@ This repository contains the code and documentation for the "Football Club Logo 
 
 ## Dataset Generation
 
-The dataset, comprising 100 club logos (20 from each of the 5 leagues), underwent image augmentation using Keras' ImageDataGenerator module. The resulting dataset included 75 augmented images for each team, with a size of 64x64 pixels.
+The dataset, comprising 100 club logos (20 from each of the 5 leagues), underwent image augmentation using Keras' ImageDataGenerator module. The resulting dataset included 75 augmented images for each team, with a size of 64x64 pixels.  
+
+![image](https://github.com/yorozuya-2003/Football-Club-Logo-Recognizer/assets/101598170/44761de3-a256-4ea3-9810-4ccf1de079fe)
 
 ## Model Training and Classification Techniques
 
@@ -101,10 +103,9 @@ The dataset, comprising 100 club logos (20 from each of the 5 leagues), underwen
 6. **Other Models (Failed Attempt)**
    KMeans Algorithm: Unsuccessful due to dataset rotations leading to uncertain cluster centroids
 
-## Best Model and Final Pipeline
+## Final Image Classification Pipeline
 
 The CNN Classifier emerged as the best model with a test accuracy of 98.07%. A pipeline was implemented for image preprocessing and model prediction, facilitating model deployment.
-
 
 ## Authors
 - [Ashudeep Dubey](mailto:dubey.6@iitj.ac.in) (B.Tech. Electrical Engineering)
