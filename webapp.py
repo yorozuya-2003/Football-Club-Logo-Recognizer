@@ -62,7 +62,7 @@ def classify(test_image):
 # streamlit app
 def main():
     # streamlit user interface
-    st.set_page_config(page_title="Football Club Logo Image Classifier",
+    st.set_page_config(page_title="Football Club Logo Recognizer",
                        page_icon=":soccer:")
 
     with open( "ui/style.css" ) as css:
